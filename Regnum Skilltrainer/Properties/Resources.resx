@@ -1,0 +1,949 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="10Repetition_Shot_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Repetition_Shot_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1Dual_Shot_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Dual_Shot_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2Rapid_Shot_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Rapid_Shot_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3Grounding_Arrow_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Grounding_Arrow_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4Lightness_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Lightness_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5Meditation_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Meditation_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5Point_Shot_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Point_Shot_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6Adaptability_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Adaptability_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7Tear_Apart_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Tear_Apart_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8Duelist_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Duelist_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9Hinder_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Hinder_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Devils_Crew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Devils Crew.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="px_Mass_Prickling_Ivy_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\px-Mass_Prickling_Ivy_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="px_Offensive_Portal_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\px-Offensive_Portal_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Army_of_One_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Army_of_One_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Caltrop_s_Arrow_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Caltrop's_Arrow_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Deflecting_Barrier_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Deflecting_Barrier_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Evendim_s_Fury_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Evendim's_Fury_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Hawk_s_Gaze_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Hawk's_Gaze_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Lightning_Arrow_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Lightning_Arrow_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Lightning_Strike_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Lightning_Strike_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Mana_Pylon_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Mana_Pylon_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Martial_Reflexes_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Martial_Reflexes_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Mass_Dispel_Magic_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Mass_Dispel_Magic_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Mass_Resurrection_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Mass_Resurrection_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Master_of_Doom_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Master_of_Doom_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Projectile_Rain_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Projectile_Rain_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Skin_of_the_Beast_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Skin_of_the_Beast_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Son_of_the_Wind_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Son_of_the_Wind_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Stalker_Surroundings_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Stalker_Surroundings_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Steel_Skin_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Steel_Skin_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Sultar_s_Devouring_Mass_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Sultar's_Devouring_Mass_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Sultar_s_Terror_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Sultar's_Terror_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Summon_Lich_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Summon_Lich_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Summon_Lightning_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Summon_Lightning_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Thunder_Strike_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Thunder_Strike_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Typhoon_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Typhoon_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Unstoppable_Madness_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Unstoppable_Madness_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Whirlwind_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10Whirlwind_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Ambush_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Ambush_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Arcane_Missile_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Arcane_Missile_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Block_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Block_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Challenge_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Challenge_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Charge_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Charge_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Colossus_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Colossus_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Curse_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Curse_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Dead_Eye_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Dead_Eye_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Dodge_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Dodge_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Energy_Barrier_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Energy_Barrier_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Ensnaring_Arrow_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Ensnaring_Arrow_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Fire_Ball_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Fire_Ball_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Fire_Magnification_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Fire_Magnification_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Forceful_Blow_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Forceful_Blow_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Force_Armor_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Force_Armor_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Gutting_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Gutting_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Heal_Ally_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Heal_Ally_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Kick_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Kick_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Natural_Dominance_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Natural_Dominance_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1px_War_Council_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1px-War_Council_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Recharged_Arrows_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Recharged_Arrows_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Shield_Piercing_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Shield_Piercing_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Stalagmite_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Stalagmite_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Summon_Imps_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Summon_Imps_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Thirst_for_Blood_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Thirst_for_Blood_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1Vampirism_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Vampirism_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Accurate_Swings_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Accurate_Swings_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Agile_Maneuvers_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Agile_Maneuvers_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Arcane_Acceleration_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Arcane_Acceleration_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Beetle_Swarm_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Beetle_Swarm_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Brutal_Impacts_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Brutal_Impacts_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Caution_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Caution_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Darkness_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Darkness_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Death_Sentence_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Death_Sentence_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Extraplanar_Bond_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Extraplanar_Bond_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Feline_Dexterity_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Feline_Dexterity_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Focus_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Focus_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Frenzy_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Frenzy_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Heal_Pet_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Heal_Pet_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Heal_Self_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Heal_Self_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Ice_Blast_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Ice_Blast_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Mana_Burn_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Mana_Burn_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Mobility_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Mobility_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Parabolic_Shot_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Parabolic_Shot_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2px_Defensive_Portal_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2px-Defensive_Portal_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2px_Fire_Arrow_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2px-Fire_Arrow_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2px_Heroic_Shout_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2px-Heroic_Shout_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2px_Horn_of_the_Wind_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2px-Horn_of_the_Wind_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2px_Paladin_s_Aid_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2px-Paladin's_Aid_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Shield_Bash_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Shield_Bash_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Shifting_Silhouette_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Shifting_Silhouette_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Slow_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Slow_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Spiritual_Blow_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Spiritual_Blow_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Sudden_Strike_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Sudden_Strike_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Taunt_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Taunt_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2Winter_Stroke_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Winter_Stroke_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Arcane_Projection_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Arcane_Projection_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Balestra_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Balestra_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Blaze_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Blaze_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Blindness_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Blindness_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Burst_of_Wind_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Burst_of_Wind_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Disable_Limb_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Disable_Limb_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Enemy_Surveillance_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Enemy_Surveillance_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Evasive_Tactics_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Evasive_Tactics_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Feint_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Feint_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Finger_Crush_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Finger_Crush_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Friendly_Shielding_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Friendly_Shielding_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Infuriate_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Infuriate_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Lightning_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Lightning_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Maneuver_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Maneuver_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Off_with_their_Heads___Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Off_with_their_Heads!!_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Petrify_Hands_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Petrify_Hands_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Protect_Ally_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Protect_Ally_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3px_Warmaster_s_Might_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3px-Warmaster's_Might_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Rend_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Rend_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Resurrect_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Resurrect_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Ribs_Breaker_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Ribs_Breaker_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Stalker_Spirit_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Stalker_Spirit_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Stunning_Fist_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Stunning_Fist_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Summon_Demon_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Summon_Demon_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Synergy_Bond_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Synergy_Bond_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3Throat_Cutter_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Throat_Cutter_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Athletic_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Athletic_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Beast_Attack_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Beast_Attack_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Bless_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Bless_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Cat_Reflexes_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Cat_Reflexes_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Combat_Magic_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Combat_Magic_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Dragon_s_Blood_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Dragon's_Blood_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Eagle_s_Eye_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Eagle's_Eye_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Elemental_Conjunction_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Elemental_Conjunction_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Foresight_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Foresight_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Laziness_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Laziness_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Lethal_Anatomy_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Lethal_Anatomy_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Martial_Defense_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Martial_Defense_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Material_Bond_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Material_Bond_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Mind_Blank_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Mind_Blank_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Mind_Push_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Mind_Push_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Precise_Block_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Precise_Block_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Prominent_Sight_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Prominent_Sight_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Protector_Temple_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Protector_Temple_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4px_Blessed_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4px-Blessed_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4px_Divine_Protection_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4px-Divine_Protection_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4px_Head_of_the_Pack_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4px-Head_of_the_Pack_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4px_Killer_Instinct_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4px-Killer_Instinct_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4px_Warmaster_Beacon_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4px-Warmaster_Beacon_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Regenerate_Ally_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Regenerate_Ally_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Retaliation_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Retaliation_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Serpent_Bite_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Serpent_Bite_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Threat_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Threat_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Versatility_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Versatility_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Vitality_Absorption_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Vitality_Absorption_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4Wild_Spirit_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Wild_Spirit_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Acrobatic_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Acrobatic_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Bear_Strength_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Bear_Strength_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Camouflage_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Camouflage_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Challenging_Roar_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Challenging_Roar_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Crushing_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Crushing_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Cyclops_Curse_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Cyclops_Curse_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Deafening_Roar_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Deafening_Roar_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Defensive_Stance_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Defensive_Stance_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Energy_Borrow_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Energy_Borrow_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Freeze_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Freeze_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Ignus_Scorch_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Ignus_Scorch_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Karma_Mirror_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Karma_Mirror_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Meteor_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Meteor_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Offensive_Stance_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Offensive_Stance_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Pricking_Ivy_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Pricking_Ivy_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5px_Warmaster_Blood_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5px-Warmaster_Blood_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Regenerate_Self_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Regenerate_Self_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Rigorous_Preparation_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Rigorous_Preparation_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Ripost_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Ripost_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Sadistic_Guards_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Sadistic_Guards_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5South_Cross_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5South_Cross_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Static_Field_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Static_Field_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Sticky_Touch_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Sticky_Touch_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Summon_Zombies_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Summon_Zombies_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5Training_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5Training_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Ambitious_Sacrifice_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Ambitious_Sacrifice_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Back_Slam_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Back_Slam_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Bless_Weapon_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Bless_Weapon_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Camouflage_Corpse_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Camouflage_Corpse_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Crash_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Crash_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Defensive_Support_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Defensive_Support_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Demonic_Rage_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Demonic_Rage_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Dirty_Fighting_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Dirty_Fighting_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Divine_Intervention_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Divine_Intervention_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Ethereal_Arrow_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Ethereal_Arrow_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Ethereal_Mantle_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Ethereal_Mantle_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Execution_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Execution_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Expansive_Wave_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Expansive_Wave_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Frozen_Storm_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Frozen_Storm_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Howl_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Howl_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Ice_Magnification_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Ice_Magnification_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Impale_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Impale_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Lethal_Strike_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Lethal_Strike_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Magic_Barrier_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Magic_Barrier_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Omnipresent_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Omnipresent_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Revive_Pet_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Revive_Pet_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Sadistic_Servants_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Sadistic_Servants_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Spell_Elude_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Spell_Elude_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Will_Domain_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Will_Domain_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6Wind_Wall_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6Wind_Wall_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Arcane_Devotion_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Arcane_Devotion_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Berserk_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Berserk_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Bestial_Wrath_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Bestial_Wrath_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Brain_Piercing_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Brain_Piercing_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Break_Apart_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Break_Apart_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Cold_Blood_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Cold_Blood_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Crystal_Blast_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Crystal_Blast_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Destabilize_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Destabilize_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Devastate_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Devastate_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Dispel_Magic_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Dispel_Magic_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Elemental_Exposure_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Elemental_Exposure_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Escapist_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Escapist_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Finesse_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Finesse_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Life_Savior_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Life_Savior_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Material_Wall_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Material_Wall_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Mind_Squasher_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Mind_Squasher_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Needle_Blast_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Needle_Blast_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Onslaught_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Onslaught_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Protection_Dome_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Protection_Dome_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Shield_Wall_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Shield_Wall_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Silence_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Silence_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Soulkeeper_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Soulkeeper_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Strategic_Position_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Strategic_Position_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Summon_Golem_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Summon_Golem_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7Troll_s_Skin_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7Troll's_Skin_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Arcana_Strike_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Arcana_Strike_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Bendable_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Bendable_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Cremation_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Cremation_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Fox_Wits_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Fox_Wits_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Fragility_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Fragility_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Fulminating_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Fulminating_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Greater_Regeneration_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Greater_Regeneration_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Intimidate_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Intimidate_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Iron_Skin_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Iron_Skin_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Knight_s_Haste_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Knight's_Haste_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Magical_Armor_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Magical_Armor_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Magma_Blast_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Magma_Blast_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Mana_Pool_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Mana_Pool_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Metabolic_Control_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Metabolic_Control_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Natural_Armor_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Natural_Armor_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Overwhelming_Strength_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Overwhelming_Strength_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Reveal_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Reveal_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Sanctuary_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Sanctuary_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Sentinel_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Sentinel_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Specialist_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Specialist_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Splinter_Wall_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Splinter_Wall_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Steadiness_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Steadiness_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Steel_Temper_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Steel_Temper_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Trained_Eye_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Trained_Eye_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8Wits_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8Wits_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Blood_Drinker_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Blood_Drinker_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Clumsiness_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Clumsiness_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Confuse_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Confuse_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Disabling_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Disabling_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Distracting_Shot_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Distracting_Shot_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Fatal_Strike_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Fatal_Strike_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Fire_Rain_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Fire_Rain_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Golem_Fist_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Golem_Fist_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Greater_Healing_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Greater_Healing_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Heroic_Presence_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Heroic_Presence_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Insightful_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Insightful_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Jaw_Breaker_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Jaw_Breaker_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Lightning_Magnification_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Lightning_Magnification_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Low_Profile_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Low_Profile_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Mana_Communion_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Mana_Communion_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Multiple_Thrust_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Multiple_Thrust_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Nature_s_Fury_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Nature's_Fury_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Obfuscate_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Obfuscate_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Possess_Summoning_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Possess_Summoning_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Rage_of_the_Earth_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Rage_of_the_Earth_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Seeking_Strike_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Seeking_Strike_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Spring_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Spring_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Stars_Shield_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Stars_Shield_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Time_Master_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Time_Master_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9Twister_Power_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9Twister_Power_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
